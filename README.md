@@ -32,7 +32,7 @@ It implements the following best practices:
 * TBD Step by step [tutorial](https://www.ibm.com/devops/method/tutorials/tc_secure_kube)
 * [Getting started with Bluemix clusters](https://console.bluemix.net/docs/containers/container_index.html?pos=2)
 * [Getting started with toolchains](https://bluemix.net/devops/getting-started)
-* [Documentation](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)
+* [Documentation](https://console.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)
 
 More links
 * https://github.com/kubernetes/helm/blob/master/docs/charts_tips_and_tricks.md
