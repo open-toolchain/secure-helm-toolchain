@@ -40,5 +40,5 @@ More links
 * http://helm.readthedocs.io/en/latest/awesome/
 * https://kubernetes.io/docs/concepts/containers/images/#using-a-private-registry
 * https://www.ibm.com/blogs/bluemix/2017/03/whats-secret-pull-image-non-default-kubernetes-namespace-ibm-bluemix-container-service/
-* https://console.bluemix.net/docs/containers/cs_tutorials.html#cs_tutorials
-* https://console.bluemix.net/docs/containers/cs_cluster.html#cs_apps_images
+* https://cloud.ibm.com/docs/containers?topic=containers-images#cs_tutorials
+* https://cloud.ibm.com/docs/containers?topic=containers-images#images
