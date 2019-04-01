@@ -15,25 +15,25 @@
     "type": "object",
     "properties": {
        "api-key": {
-            "description": "The Bluemix API key is used to access the IBM Container Service API and interact with the cluster. You can obtain your API key with 'bx iam api-key-create' or via the console at https://console.ng.bluemix.net/iam/#/apikeys by clicking **Create API key** (Each API key only can be viewed once).",
+            "description": "The IBM Cloud API key is used to access the IBM Container Service API and interact with the cluster. You can obtain your API key with 'ibmcloud iam api-key-create' or via the console at https://cloud.ibm.com/iam#/apikeys by clicking **Create API key** (Each API key only can be viewed once).",
             "type": "string",
             "pattern": "\\S"
         },
        "registry-region": {
-          "description": "The bluemix region for image registry",
+          "description": "The IBM Cloud region for image registry",
           "type": "string"
         },
        "registry-namespace": {
-          "description": "The namespace in the container image registry. You can set it up with {bx cr namespace-add]. Learn more at https://console.bluemix.net/docs/services/Registry/index.html .",
+          "description": "The namespace in the container image registry. You can set it up with {ibmcloud cr namespace-add]. Learn more at https://cloud.ibm.com/docs/services/Registry?topic=registry-index#index .",
           "type": "string",
           "pattern": "\\S"
         },
         "staging-region": {
-            "description": "The bluemix region for staging deployment",
+            "description": "The IBM Cloud region for staging deployment",
             "type": "string"
         },
        "staging-cluster-name": {
-            "description": "The name of staging cluster. Retrieve it with [bx cs clusters] or via the console at https://console.ng.bluemix.net/containers-kubernetes/home/clusters .",
+            "description": "The name of staging cluster. Retrieve it with [ibmcloud cs clusters] or via the console at https://cloud.ibm.com/catalog/services/cloudant .",
             "type": "string",
             "pattern": "\\S"
         },
@@ -43,11 +43,11 @@
           "pattern": "\\S"
         },
         "prod-region": {
-            "description": "The bluemix region for prod deployment",
+            "description": "The IBM Cloud region for prod deployment",
             "type": "string"
         },
        "prod-cluster-name": {
-            "description": "The name of prod cluster. Retrieve it with [bx cs clusters] or via the console at https://console.ng.bluemix.net/containers-kubernetes/home/clusters .",
+            "description": "The name of prod cluster. Retrieve it with [ibmcloud cs clusters] or via the console at https://cloud.ibm.com/catalog/services/cloudant .",
             "type": "string",
             "pattern": "\\S"
         },
@@ -57,11 +57,11 @@
           "pattern": "\\S"
         },
         "prod-organization": {
-            "description": "The bluemix org",
+            "description": "The IBM Cloud org",
             "type": "string"
         },
        "prod-space": {
-            "description": "The bluemix space",
+            "description": "The IBM Cloud space",
             "type": "string"
         },
        "app-name": {
@@ -127,7 +127,7 @@
           },{
             "type": "password",
             "readonly": false,
-            "title": "Bluemix API key",
+            "title": "IBM Cloud API key",
             "key": "api-key"
           },{
             "type": "table",
@@ -192,7 +192,7 @@
                   "title": ""
                 },{
                   "type": "label",
-                  "title": "Retrieve the Kubernetes cluster name with the CLI command 'bx cs clusters' or via the [console](https://console.bluemix.net/containers-kubernetes/home/clusters)."
+                  "title": "Retrieve the Kubernetes cluster name with the CLI command 'ibmcloud cs clusters' or via the [console](https://cloud.ibm.com/catalog/services/cloudant)."
                 }
             ]
         },{
