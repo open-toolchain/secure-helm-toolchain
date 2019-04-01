@@ -23,16 +23,16 @@ It implements the following best practices:
 ![Icon](./.bluemix/toolchain.png)
 
 ### To get started, click this button:
-[![Deploy To Bluemix](https://console.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.bluemix.net/devops/setup/deploy/?repository=https%3A//github.com/open-toolchain/secure-helm-toolchain)
+[![Deploy To IBM Cloud](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://cloud.ibm.com/devops/setup/deploy/?repository=https%3A//github.com/open-toolchain/secure-helm-toolchain)
 
 ---
 ### Learn more 
 
 * TBD Blog [Continuously deliver your app to Kubernetes with Bluemix](https://www.ibm.com/blogs/bluemix/2017/07/continuously-deliver-your-app-to-kubernetes-with-bluemix/)
 * TBD Step by step [tutorial](https://www.ibm.com/devops/method/tutorials/tc_secure_kube)
-* [Getting started with Bluemix clusters](https://console.bluemix.net/docs/containers/container_index.html?pos=2)
+* [Getting started with IBM Cloud clusters](https://cloud.ibm.com/docs/containers/container_index.html?pos=2)
 * [Getting started with toolchains](https://bluemix.net/devops/getting-started)
-* [Documentation](https://console.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)
+* [Documentation](https://cloud.ibm.com/docs/services/ContinuousDelivery/index.html?pos=2)
 
 More links
 * https://github.com/kubernetes/helm/blob/master/docs/charts_tips_and_tricks.md
@@ -40,5 +40,5 @@ More links
 * http://helm.readthedocs.io/en/latest/awesome/
 * https://kubernetes.io/docs/concepts/containers/images/#using-a-private-registry
 * https://www.ibm.com/blogs/bluemix/2017/03/whats-secret-pull-image-non-default-kubernetes-namespace-ibm-bluemix-container-service/
-* https://console.bluemix.net/docs/containers/cs_tutorials.html#cs_tutorials
-* https://console.bluemix.net/docs/containers/cs_cluster.html#cs_apps_images
+* https://cloud.ibm.com/docs/containers?topic=containers-images#cs_tutorials
+* https://cloud.ibm.com/docs/containers?topic=containers-images#images
