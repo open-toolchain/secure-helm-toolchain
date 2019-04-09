@@ -32,7 +32,7 @@ else
 fi
 
 # Grant access to private image registry from namespace $CLUSTER_NAMESPACE
-# reference https://console.bluemix.net/docs/containers/cs_cluster.html#bx_registry_other
+# reference https://cloud.ibm.com/docs/containers?topic=containers-images#other
 echo -e "Checking access to private image registry from namespace ${CLUSTER_NAMESPACE}"
 IMAGE_PULL_SECRET_NAME="bluemix-toolchain-${PIPELINE_TOOLCHAIN_ID}-${REGISTRY_URL}"
 echo -e "create ${IMAGE_PULL_SECRET_NAME} imagePullSecret if it does not exist"
