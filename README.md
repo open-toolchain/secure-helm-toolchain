@@ -1,5 +1,5 @@
-# ![Icon](./.bluemix/secure-lock-kubernetes.png) Secure Kubernetes with Helm Charts toolchain
-
+# ![Icon](./.bluemix/secure-lock-kubernetes.png) Secure Kubernetes with Helm Charts toolchain - deprecated
+## use https://github.com/open-toolchain/simple-helm-toolchain instead
 
 ### Continuously deliver a secure Docker app to a Kubernetes Cluster with Helm Charts
 This Hello World application uses Docker with Node.js and includes a DevOps toolchain that is preconfigured for continuous delivery across a staging and a prod Kubernetes cluster, with Vulnerability Advisor, source control, issue tracking, and online editing, and deployment to the IBM Bluemix Kubernetes Cluster using Helm Charts.
